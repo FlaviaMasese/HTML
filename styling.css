@@ -1,0 +1,51 @@
+body{
+    margin:20px;
+    background-color: lightgrey;
+    border-style: solid;
+    border-radius: 20px;
+    border: 20px solid black;
+}
+.main{
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    width: 300px;
+    height: 500px;
+    /*margin-left: auto;
+    /*margin-right: auto;
+    position: relative;
+    /* I can use "top" because I've set position to relative */
+    top: 10vh;
+    border-radius: 20px;
+    
+    /*overflow: hidden;
+    /*transition: box-shadow 1.5s;*/
+}
+.topbar a{
+    color: teal;
+    overflow: hidden;
+}
+.sidebar{
+    background-color: #333;
+    color: white;
+    height: 100%;
+}
+.sidebar a{
+    margin-left: 10px;
+    display:block;
+    color: white;
+    padding-bottom: 10px;
+    font-size: 30px;
+    text-decoration: none
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.mt-3{
+    display:inline;
+}
+.content{
+    background-color: whitesmoke;
+}
